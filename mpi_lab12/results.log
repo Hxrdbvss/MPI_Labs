@@ -1,0 +1,49 @@
+=== Hybrid MPI + OpenMP Benchmark ===
+Date: Tue Nov 18 11:03:09 MSK 2025
+-------------------------------------
+
+Running with 1 MPI process(es)...
+=== Hybrid MPI + OpenMP/NumPy ===
+MPI processes: 1
+OMP_NUM_THREADS: 4
+OPENBLAS_NUM_THREADS: 4
+MKL_NUM_THREADS: 4
+
+Largest per-process time: 0.007571697235107422
+y[0:5] = [1013.12218479  989.09496903 1021.40456319  976.9021891  1007.62225587]
+-------------------------------------
+
+Running with 2 MPI process(es)...
+=== Hybrid MPI + OpenMP/NumPy ===
+MPI processes: 2
+OMP_NUM_THREADS: 4
+OPENBLAS_NUM_THREADS: 4
+MKL_NUM_THREADS: 4
+
+Largest per-process time: 0.006415128707885742
+y[0:5] = [1016.16404149 1008.42457205  992.71984301 1008.82570887  997.73147771]
+-------------------------------------
+
+Running with 4 MPI process(es)...
+=== Hybrid MPI + OpenMP/NumPy ===
+MPI processes: 4
+OMP_NUM_THREADS: 4
+OPENBLAS_NUM_THREADS: 4
+MKL_NUM_THREADS: 4
+
+Largest per-process time: 0.004785060882568359
+y[0:5] = [ 989.8989334  1019.85429667 1014.5358459  1007.3286344  1021.20821453]
+-------------------------------------
+
+Running with 8 MPI process(es)...
+=== Hybrid MPI + OpenMP/NumPy ===
+MPI processes: 8
+OMP_NUM_THREADS: 4
+OPENBLAS_NUM_THREADS: 4
+MKL_NUM_THREADS: 4
+
+Largest per-process time: 0.006957292556762695
+y[0:5] = [1010.24896405 1010.52678058 1016.9264489  1008.16073663  998.30874828]
+-------------------------------------
+
+All tests completed.
